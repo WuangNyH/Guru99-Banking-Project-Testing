@@ -1,0 +1,4 @@
+"", Customer ID is required
+@!#, Special characters are not allowed
+abc, Characters are not allowed
+" ", First character can not have space

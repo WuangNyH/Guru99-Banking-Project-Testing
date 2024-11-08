@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
     private WebDriver driver;
     public By clickNewCustomerLink = By.xpath("//a[contains(text(), 'New Customer')]");
+    public By clickNewAccountLink = By.xpath("//a[contains(text(), 'New Account')]");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -19,4 +20,10 @@ public class HomePage {
         driver.findElement(clickNewCustomerLink).click();
         return new AddCustomerPage(driver);
     }
+
+    public AddAccountPage clickNewAccount(){
+        driver.findElement(clickNewAccountLink).click();
+        return new AddAccountPage(driver);
+    }
+
 }
