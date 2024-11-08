@@ -1,0 +1,4 @@
+123456, Numbers are not allowed
+"", State must not be blank
+@!#, Special characters are not allowed
+" ", First character can not have space

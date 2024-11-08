@@ -18,10 +18,10 @@ public class BaseTests {
         loginPage = new LoginPage(driver);
     }
 
-    @AfterEach
-    public void tearDown(){
-        driver.quit();
-    }
+//    @AfterEach
+//    public void tearDown(){
+//        driver.quit();
+//    }
 
     public static void main(String[] args) {
         BaseTests test = new BaseTests();

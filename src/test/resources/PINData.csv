@@ -1,0 +1,5 @@
+abc, Characters are not allowed
+"", PIN Code must not be blank
+12345@, Special characters are not allowed
+1234, PIN Code must have 6 Digits
+" 1234", First character can not have space
